@@ -1,0 +1,7 @@
+com/example/pokedexkotlin/PokemonItem.java
+ com.example.pokedexkotlin.PokemonItem
+com/example/pokedexkotlin/BuildConfig.java
+ com.example.pokedexkotlin.BuildConfig
+com/example/pokedexkotlin/ListAdapter.java
+ com.example.pokedexkotlin.ListAdapter
+ com.example.pokedexkotlin.ListAdapter$ViewHolder
