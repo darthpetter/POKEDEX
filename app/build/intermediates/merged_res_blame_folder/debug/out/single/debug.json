@@ -8,6 +8,10 @@
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pokemon_description.xml.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\layout\\activity_pokemon_description.xml"
+    },
+    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -16,12 +20,12 @@
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\font_outfit_regular.ttf.flat",
-        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\font\\outfit_regular.ttf"
-    },
-    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\font_outfit_medium.ttf.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\font\\outfit_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\font_outfit_regular.ttf.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\font\\outfit_regular.ttf"
     },
     {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_bulbasaur.png.flat",

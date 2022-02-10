@@ -1,20 +1,24 @@
 package com.example.pokedexkotlin
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.pokedexkotlin.databinding.ActivityMainBinding
+import com.example.pokedexkotlin.databinding.ActivityPokemonDescriptionBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.security.AccessController.getContext
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(){
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: AdapterPokemon
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,10 +57,16 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun showError(){
-        Toast.makeText(this,"No se ha podido establecer conexión con la API",Toast.LENGTH_SHORT).show()
+        Toast.makeText(this@MainActivity,"No se ha podido establecer conexión con la API",Toast.LENGTH_SHORT).show()
     }
 
-
-
+    fun pokemonPressed(){
+        try {
+            startActivity(Intent(this,ActivityPokemonDescriptionBinding::class.java))
+        } catch (e: Exception) {
+            println("*ERROR OTRAVEZ*")
+            println(e.toString())
+        }
+    }
 
 }

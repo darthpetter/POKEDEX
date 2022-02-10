@@ -2737,6 +2737,7 @@ int id image 0x7f0900d6
 int id imageButton 0x7f0900d7
 int id imageButton2 0x7f0900d8
 int id imageView 0x7f0900d9
+int id imageView2 0x7f0901e4
 int id immediateStop 0x7f0900da
 int id included 0x7f0900db
 int id info 0x7f0900dc
@@ -3089,6 +3090,7 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_main 0x7f0c001c
+int layout activity_pokemon_description 0x7f0c0075
 int layout custom_dialog 0x7f0c001d
 int layout design_bottom_navigation_item 0x7f0c001e
 int layout design_bottom_sheet_dialog 0x7f0c001f

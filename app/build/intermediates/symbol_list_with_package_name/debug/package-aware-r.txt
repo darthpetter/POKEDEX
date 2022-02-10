@@ -2738,6 +2738,7 @@ id image
 id imageButton
 id imageButton2
 id imageView
+id imageView2
 id immediateStop
 id included
 id info
@@ -3090,6 +3091,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_pokemon_description
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
