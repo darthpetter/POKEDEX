@@ -1776,6 +1776,11 @@ int color test_mtrl_calendar_day_selected 0x7f050253
 int color tooltip_background_dark 0x7f050254
 int color tooltip_background_light 0x7f050255
 int color white 0x7f050256
+int color yeezus_black 0x7f050257
+int color yeezus_blue_400 0x7f050258
+int color yeezus_blue_500 0x7f050259
+int color yeezus_red 0x7f05025a
+int color yeezus_white 0x7f05025b
 int dimen abc_action_bar_content_inset_material 0x7f060000
 int dimen abc_action_bar_content_inset_with_nav 0x7f060001
 int dimen abc_action_bar_default_height_material 0x7f060002
@@ -2455,6 +2460,9 @@ int drawable design_ic_visibility_off 0x7f070063
 int drawable design_password_eye 0x7f070064
 int drawable design_snackbar_background 0x7f070065
 int drawable fondo_app 0x7f070066
+int drawable fondo_description_pokemon 0x7f0700a9
+int drawable fondo_pokemon_item 0x7f0700a5
+int drawable fondo_pokemon_item_data 0x7f0700a6
 int drawable ic_baseline_account_circle_24 0x7f070067
 int drawable ic_baseline_menu_24 0x7f070068
 int drawable ic_clock_black_24dp 0x7f070069
@@ -2510,15 +2518,17 @@ int drawable notification_template_icon_low_bg 0x7f07009a
 int drawable notification_tile_bg 0x7f07009b
 int drawable notify_panel_notification_icon_bg 0x7f07009c
 int drawable pokemon_logo 0x7f07009d
-int drawable rectangle_tangerine_rounded 0x7f0700a4
+int drawable pokemon_type 0x7f0700a8
 int drawable test_custom_background 0x7f0700a0
 int drawable test_level_drawable 0x7f0700a1
 int drawable tooltip_frame_dark 0x7f0700a2
 int drawable tooltip_frame_light 0x7f0700a3
+int font font_pokemon_names 0x7f080004
 int font fuente_sistema 0x7f080000
 int font outfit_medium 0x7f080001
 int font outfit_regular 0x7f080002
 int font outfit_semibold 0x7f080003
+int font pressstart 0x7f080005
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
@@ -2759,6 +2769,8 @@ int id line1 0x7f0900ec
 int id line3 0x7f0900ed
 int id linear 0x7f0900ee
 int id linearLayout 0x7f0900ef
+int id linearLayout2 0x7f0901e7
+int id linearLayout3 0x7f0901e9
 int id listMode 0x7f0900f0
 int id list_item 0x7f0900f1
 int id mainView 0x7f0900f2
@@ -2863,6 +2875,7 @@ int id progress_horizontal 0x7f090154
 int id radio 0x7f090155
 int id ratio 0x7f090156
 int id rectangles 0x7f090157
+int id recyclerView2 0x7f0901ed
 int id reverseSawtooth 0x7f090158
 int id right 0x7f090159
 int id rightToLeft 0x7f09015a
@@ -2981,7 +2994,8 @@ int id transition_position 0x7f0901ca
 int id transition_scene_layoutid_cache 0x7f0901cb
 int id transition_transform 0x7f0901cc
 int id triangle 0x7f0901cd
-int id txtNombre 0x7f0901e6
+int id type1 0x7f0901eb
+int id type2 0x7f0901ec
 int id unchecked 0x7f0901ce
 int id uniform 0x7f0901cf
 int id unlabeled 0x7f0901d0

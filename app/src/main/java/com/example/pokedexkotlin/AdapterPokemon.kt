@@ -19,16 +19,9 @@ class AdapterPokemon(private val pokemones:List<String>): RecyclerView.Adapter<P
     override fun getItemCount(): Int = pokemones.size
     override fun onBindViewHolder(holder: PokemonViewHolder, position: Int) {
         val item = pokemones[position]
-        holder.bind(item,addCeros(position+1))
-    }
-    private fun addCeros(numero:Int) :Formatter{
-        var fmt=Formatter()
 
-        return when(numero){
-            in 1..9 -> fmt.format("%03d",numero)
-            in 10..99 -> fmt.format("%03d",numero)
-            else ->fmt.format("%03d",numero)
-        }
+        Util().addCeros(position+1)
+        holder.bind(item,Util().addCeros(position+1))
     }
 }
 
@@ -37,14 +30,14 @@ class PokemonViewHolder(view: View):RecyclerView.ViewHolder(view){
     //https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/1.gif
     private val repositorioSpritesUrl="https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/"
     fun bind(nombrePokemon:String,numeroPokemon:Formatter){
-        binding.numeroPokemon.setText("#$numeroPokemon")
+        binding.numeroPokemon.setText("$numeroPokemon")
         Picasso.get().load("$repositorioSpritesUrl$numeroPokemon.png").into(binding.fotoPokemon)
         binding.nombrePokemon.setText("${nombrePokemon.capitalize()}")
 
         binding.root.setOnClickListener(object : View.OnClickListener{
             override fun onClick(view: View?) {
-                //println(binding.nombrePokemon.getText().toString())
-                startActivity(binding.getRoot().getContext(),Intent(binding.getRoot().getContext(),PokemonDescription::class.java).putExtra("nombrePokemon","$nombrePokemon"),null)
+                startActivity(binding.getRoot().getContext(),Intent(binding.getRoot().getContext(),PokemonDescription::class.java).putExtra("nombrePokemon",nombrePokemon).putExtra("numeroPokemon",numeroPokemon.toString()),null)
+
             }
         })
     }

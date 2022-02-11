@@ -1777,6 +1777,11 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yeezus_black
+color yeezus_blue_400
+color yeezus_blue_500
+color yeezus_red
+color yeezus_white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2456,6 +2461,9 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable fondo_app
+drawable fondo_description_pokemon
+drawable fondo_pokemon_item
+drawable fondo_pokemon_item_data
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_menu_24
 drawable ic_clock_black_24dp
@@ -2511,15 +2519,17 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pokemon_logo
-drawable rectangle_tangerine_rounded
+drawable pokemon_type
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font font_pokemon_names
 font fuente_sistema
 font outfit_medium
 font outfit_regular
 font outfit_semibold
+font pressstart
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2760,6 +2770,8 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout2
+id linearLayout3
 id listMode
 id list_item
 id mainView
@@ -2864,6 +2876,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView2
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2982,7 +2995,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txtNombre
+id type1
+id type2
 id unchecked
 id uniform
 id unlabeled

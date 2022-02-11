@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\font_pressstart.ttf.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\font\\pressstart.ttf"
+    },
+    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_account_circle_24.xml.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\ic_baseline_account_circle_24.xml"
     },
@@ -12,6 +16,14 @@
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\layout\\activity_pokemon_description.xml"
     },
     {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_pokemon_type.xml.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\pokemon_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_pokemon_item_data.xml.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\fondo_pokemon_item_data.xml"
+    },
+    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -20,12 +32,12 @@
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\font_outfit_medium.ttf.flat",
-        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\font\\outfit_medium.ttf"
-    },
-    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\font_outfit_regular.ttf.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\font\\outfit_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\font_outfit_medium.ttf.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\font\\outfit_medium.ttf"
     },
     {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_bulbasaur.png.flat",
@@ -40,12 +52,16 @@
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_description_pokemon.xml.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\fondo_description_pokemon.xml"
+    },
+    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_tangerine_rounded.xml.flat",
-        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\rectangle_tangerine_rounded.xml"
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\font_font_pokemon_names.xml.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\font\\font_pokemon_names.xml"
     },
     {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_menu_24.xml.flat",
@@ -56,16 +72,20 @@
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_pokemon_item.xml.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\fondo_pokemon_item.xml"
+    },
+    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_pokemon_logo.png.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\pokemon_logo.png"
     },
     {
-        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
