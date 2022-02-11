@@ -2738,7 +2738,6 @@ id image
 id imageButton
 id imageButton2
 id imageView
-id imageView2
 id immediateStop
 id included
 id info
@@ -2983,6 +2982,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtNombre
 id unchecked
 id uniform
 id unlabeled

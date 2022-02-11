@@ -4,6 +4,7 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pokedexkotlin.databinding.PokemonItemBinding
@@ -42,11 +43,9 @@ class PokemonViewHolder(view: View):RecyclerView.ViewHolder(view){
 
         binding.root.setOnClickListener(object : View.OnClickListener{
             override fun onClick(view: View?) {
-                println(binding.nombrePokemon.getText().toString())
-                var main=MainActivity()
-                main.pokemonPressed()
+                //println(binding.nombrePokemon.getText().toString())
+                startActivity(binding.getRoot().getContext(),Intent(binding.getRoot().getContext(),PokemonDescription::class.java).putExtra("nombrePokemon","$nombrePokemon"),null)
             }
         })
     }
-
 }

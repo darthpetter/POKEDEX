@@ -2737,7 +2737,6 @@ int id image 0x7f0900d6
 int id imageButton 0x7f0900d7
 int id imageButton2 0x7f0900d8
 int id imageView 0x7f0900d9
-int id imageView2 0x7f0901e4
 int id immediateStop 0x7f0900da
 int id included 0x7f0900db
 int id info 0x7f0900dc
@@ -2982,6 +2981,7 @@ int id transition_position 0x7f0901ca
 int id transition_scene_layoutid_cache 0x7f0901cb
 int id transition_transform 0x7f0901cc
 int id triangle 0x7f0901cd
+int id txtNombre 0x7f0901e6
 int id unchecked 0x7f0901ce
 int id uniform 0x7f0901cf
 int id unlabeled 0x7f0901d0
