@@ -1276,6 +1276,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2468,7 +2469,6 @@ drawable ic_baseline_account_circle_24
 drawable ic_baseline_menu_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -2655,6 +2655,8 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id configButton
+id configuration
 id confirm_button
 id constraint
 id container
@@ -2708,6 +2710,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id exit
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2745,7 +2748,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton
 id imageButton2
 id imageView
 id immediateStop
@@ -3201,7 +3203,9 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+menu main_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

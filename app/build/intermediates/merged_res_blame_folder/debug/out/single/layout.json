@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\pokemon_type.xml",
-        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\layout\\pokemon_type.xml"
-    },
-    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\layout\\activity_main.xml"
     },

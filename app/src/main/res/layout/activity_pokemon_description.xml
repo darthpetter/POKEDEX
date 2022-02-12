@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/configButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|left"
@@ -162,7 +162,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Peso"
+                android:text="Weight"
                 android:textColor="@color/yeezus_blue_400"
                 android:textSize="10sp" />
 
@@ -188,7 +188,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Altura"
+                android:text="Height"
                 android:textColor="@color/yeezus_blue_400"
                 android:textSize="10sp" />
         </LinearLayout>

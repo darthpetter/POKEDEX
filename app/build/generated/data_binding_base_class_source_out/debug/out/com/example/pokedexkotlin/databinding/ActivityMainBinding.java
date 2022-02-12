@@ -23,7 +23,7 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageButton imageButton;
+  public final ImageButton configButton;
 
   @NonNull
   public final ImageButton imageButton2;
@@ -37,11 +37,11 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView mainView;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton imageButton,
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton configButton,
       @NonNull ImageButton imageButton2, @NonNull ImageView imageView,
       @NonNull LinearLayout linearLayout, @NonNull RecyclerView mainView) {
     this.rootView = rootView;
-    this.imageButton = imageButton;
+    this.configButton = configButton;
     this.imageButton2 = imageButton2;
     this.imageView = imageView;
     this.linearLayout = linearLayout;
@@ -75,9 +75,9 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageButton;
-      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton == null) {
+      id = R.id.configButton;
+      ImageButton configButton = ViewBindings.findChildViewById(rootView, id);
+      if (configButton == null) {
         break missingId;
       }
 
@@ -105,7 +105,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, imageButton, imageButton2,
+      return new ActivityMainBinding((ConstraintLayout) rootView, configButton, imageButton2,
           imageView, linearLayout, mainView);
     }
     String missingId = rootView.getResources().getResourceName(id);

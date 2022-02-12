@@ -3,6 +3,11 @@ package com.example.pokedexkotlin
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
+import android.view.ContextMenu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
+import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -61,13 +66,11 @@ class MainActivity : AppCompatActivity(){
         Toast.makeText(this@MainActivity,"No se ha podido establecer conexión con la API",Toast.LENGTH_SHORT).show()
     }
 
-    fun pokemonPressed(){
-        try {
-            startActivity(Intent(this,ActivityPokemonDescriptionBinding::class.java))
-        } catch (e: Exception) {
-            println("*ERROR OTRAVEZ*")
-            println(e.toString())
+    fun configButton(v: View) {
+        PopupMenu(this, v).apply {
+            //setOnMenuItemClickListener(this)
+            inflate(R.menu.main_menu)
+            show()
         }
     }
-
 }

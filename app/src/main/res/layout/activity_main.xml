@@ -19,12 +19,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/configButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|left"
             android:layout_weight="1"
             android:background="@android:color/transparent"
+            android:onClick="configButton"
             app:srcCompat="@drawable/ic_baseline_menu_24" />
 
         <ImageView
