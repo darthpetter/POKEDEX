@@ -2772,6 +2772,7 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
+id linearLayout4
 id listMode
 id list_item
 id mainView
@@ -2876,7 +2877,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id recyclerView2
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2995,6 +2995,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtAltura
+id txtPeso
+id txtviewALTURA
+id txtviewPESO
 id type1
 id type2
 id unchecked

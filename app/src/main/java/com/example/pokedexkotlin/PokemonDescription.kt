@@ -69,6 +69,10 @@ class PokemonDescription : AppCompatActivity() {
             binding.type1.setText(pokemonDescription.types[0].type.name.capitalize())
             binding.type2.setVisibility(View.GONE)
         }
+
+        //SETEA PESO Y ALTURA
+        binding.txtPeso.setText("${pokemonDescription.weight.toString()} Kg.")
+        binding.txtAltura.setText("${pokemonDescription.height.toString()} m.")
     }
 
 

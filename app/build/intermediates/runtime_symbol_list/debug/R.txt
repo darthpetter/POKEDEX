@@ -2771,6 +2771,7 @@ int id linear 0x7f0900ee
 int id linearLayout 0x7f0900ef
 int id linearLayout2 0x7f0901e7
 int id linearLayout3 0x7f0901e9
+int id linearLayout4 0x7f0901ee
 int id listMode 0x7f0900f0
 int id list_item 0x7f0900f1
 int id mainView 0x7f0900f2
@@ -2875,7 +2876,6 @@ int id progress_horizontal 0x7f090154
 int id radio 0x7f090155
 int id ratio 0x7f090156
 int id rectangles 0x7f090157
-int id recyclerView2 0x7f0901ed
 int id reverseSawtooth 0x7f090158
 int id right 0x7f090159
 int id rightToLeft 0x7f09015a
@@ -2994,6 +2994,10 @@ int id transition_position 0x7f0901ca
 int id transition_scene_layoutid_cache 0x7f0901cb
 int id transition_transform 0x7f0901cc
 int id triangle 0x7f0901cd
+int id txtAltura 0x7f0901f2
+int id txtPeso 0x7f0901ef
+int id txtviewALTURA 0x7f0901f0
+int id txtviewPESO 0x7f0901f1
 int id type1 0x7f0901eb
 int id type2 0x7f0901ec
 int id unchecked 0x7f0901ce
