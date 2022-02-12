@@ -1,6 +1,7 @@
 package com.example.pokedexkotlin
 
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity

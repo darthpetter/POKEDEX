@@ -15,7 +15,7 @@
 11-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:7:5-26:19
+13-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:7:5-30:19
 14        android:allowBackup="true"
 14-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,57 +34,65 @@
 22-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:13:9-51
 23        <activity
 23-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:14:9-16:40
-24            android:name="com.example.pokedexkotlin.PokemonDescription"
-24-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:15:13-47
+24            android:name="com.example.pokedexkotlin.ConfiguracionesInformacion"
+24-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:15:13-55
 25            android:exported="false" />
 25-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:16:13-37
 26        <activity
-26-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:17:9-25:20
-27            android:name="com.example.pokedexkotlin.MainActivity"
-27-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:18:13-41
-28            android:exported="true" >
-28-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:19:13-36
-29            <intent-filter>
-29-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:20:13-24:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:21:17-69
-30-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:21:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:23:17-77
-32-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:23:27-74
-33            </intent-filter>
-34        </activity>
+26-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:17:9-19:40
+27            android:name="com.example.pokedexkotlin.PokemonDescription"
+27-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:18:13-47
+28            android:exported="false" />
+28-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:19:13-37
+29        <activity
+29-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:20:9-29:20
+30            android:name="com.example.pokedexkotlin.MainActivity"
+30-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:21:13-41
+31            android:configChanges="uiMode"
+31-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:22:13-43
+32            android:exported="true" >
+32-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:23:13-36
+33            <intent-filter>
+33-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:25:17-69
+34-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:25:25-66
 35
-36        <provider
-36-->[com.squareup.picasso:picasso:2.71828] C:\Users\PETTER\.gradle\caches\transforms-3\2e1fe3b51df7409ca31ed0fc761dcf8f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-37            android:name="com.squareup.picasso.PicassoProvider"
-37-->[com.squareup.picasso:picasso:2.71828] C:\Users\PETTER\.gradle\caches\transforms-3\2e1fe3b51df7409ca31ed0fc761dcf8f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-38            android:authorities="com.example.pokedexkotlin.com.squareup.picasso"
-38-->[com.squareup.picasso:picasso:2.71828] C:\Users\PETTER\.gradle\caches\transforms-3\2e1fe3b51df7409ca31ed0fc761dcf8f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-39            android:exported="false" />
-39-->[com.squareup.picasso:picasso:2.71828] C:\Users\PETTER\.gradle\caches\transforms-3\2e1fe3b51df7409ca31ed0fc761dcf8f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:27:17-77
+36-->C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin\app\src\main\AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39
 40        <provider
-40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-41            android:name="androidx.startup.InitializationProvider"
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-42            android:authorities="com.example.pokedexkotlin.androidx-startup"
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-43            android:exported="false" >
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-44            <meta-data
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-46                android:value="androidx.startup" />
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-47            <meta-data
-47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PETTER\.gradle\caches\transforms-3\f6772fa32c7b52d93e54d657da5854aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PETTER\.gradle\caches\transforms-3\f6772fa32c7b52d93e54d657da5854aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-49                android:value="androidx.startup" />
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PETTER\.gradle\caches\transforms-3\f6772fa32c7b52d93e54d657da5854aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-50        </provider>
-51    </application>
-52
-53</manifest>
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\PETTER\.gradle\caches\transforms-3\2e1fe3b51df7409ca31ed0fc761dcf8f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+41            android:name="com.squareup.picasso.PicassoProvider"
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\PETTER\.gradle\caches\transforms-3\2e1fe3b51df7409ca31ed0fc761dcf8f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+42            android:authorities="com.example.pokedexkotlin.com.squareup.picasso"
+42-->[com.squareup.picasso:picasso:2.71828] C:\Users\PETTER\.gradle\caches\transforms-3\2e1fe3b51df7409ca31ed0fc761dcf8f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+43            android:exported="false" />
+43-->[com.squareup.picasso:picasso:2.71828] C:\Users\PETTER\.gradle\caches\transforms-3\2e1fe3b51df7409ca31ed0fc761dcf8f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+46            android:authorities="com.example.pokedexkotlin.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PETTER\.gradle\caches\transforms-3\63efaaf8629b8c56e823996ecb455ae8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PETTER\.gradle\caches\transforms-3\f6772fa32c7b52d93e54d657da5854aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PETTER\.gradle\caches\transforms-3\f6772fa32c7b52d93e54d657da5854aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PETTER\.gradle\caches\transforms-3\f6772fa32c7b52d93e54d657da5854aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

@@ -21,10 +21,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.PokedexKotlin" >
         <activity
+            android:name="com.example.pokedexkotlin.ConfiguracionesInformacion"
+            android:exported="false" />
+        <activity
             android:name="com.example.pokedexkotlin.PokemonDescription"
             android:exported="false" />
         <activity
             android:name="com.example.pokedexkotlin.MainActivity"
+            android:configChanges="uiMode"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
