@@ -71,8 +71,12 @@ class PokemonDescription : AppCompatActivity() {
         }
 
         //SETEA PESO Y ALTURA
-        binding.txtPeso.setText("${pokemonDescription.weight.toString()} Kg.")
-        binding.txtAltura.setText("${pokemonDescription.height.toString()} m.")
+        binding.txtPeso.setText("${Util().convertToKG(pokemonDescription.weight).toString()} Kg.")
+        binding.txtAltura.setText("${Util().convertToMeter(pokemonDescription.height).toString()} m.")
+    }
+
+    fun backMain(view:View){
+        finish()
     }
 
 

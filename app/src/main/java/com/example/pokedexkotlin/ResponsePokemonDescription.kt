@@ -3,8 +3,8 @@ package com.example.pokedexkotlin
 import com.google.gson.annotations.SerializedName
 
 data class ResponsePokemonDescription(
-    @SerializedName("weight") var weight:Long,
-    @SerializedName("height") var height:Long,
+    @SerializedName("weight") var weight:Int,
+    @SerializedName("height") var height:Int,
     @SerializedName("id") var id:Int,
     @SerializedName("types") var types:ArrayList<ResponsePokemonDescriptionType>,
     @SerializedName("abilities") var abilities:ArrayList<ResponsePokemonDescriptionAbility>,

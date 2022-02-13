@@ -308,7 +308,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/account_circle/baseline_account_circle_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialiconsoutlined/settings/outline_settings_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -318,9 +318,10 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="2b6fb9" />
-                            <entry key="outputName" value="ic_baseline_account_circle_24" />
-                            <entry key="sourceFile" value="C:\Users\PETTER\AndroidStudioProjects\PokedexKotlin" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="color" value="20cbb8" />
+                            <entry key="outputName" value="ic_logo" />
+                            <entry key="sourceFile" value="C:\Users\PETTER\Desktop\logo.svg" />
                           </map>
                         </option>
                       </PersistentState>

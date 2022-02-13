@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity(){
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         getPokemones()
 
     }
@@ -81,7 +80,7 @@ class MainActivity : AppCompatActivity(){
 
         Toast.makeText(this,"Compruebe su conexión a internet.\uD83E\uDD74",Toast.LENGTH_LONG).show()
     }
-
+    /*
     fun configButton(v: View) {
         PopupMenu(this, v).apply {
             //setOnMenuItemClickListener(this)
@@ -89,4 +88,27 @@ class MainActivity : AppCompatActivity(){
             show()
         }
     }
+    */
+
+    fun configButton(view: View) {
+        val popupMenu = PopupMenu(this, view)
+        menuInflater.inflate(R.menu.main_menu, popupMenu.menu)
+        popupMenu.setOnMenuItemClickListener (::manageItemClick)
+        popupMenu.show()
+    }
+
+    private fun manageItemClick(menuItem: MenuItem): Boolean {
+        return when(menuItem.itemId){
+            R.id.configuration-> {
+                startActivity(Intent(this,ConfiguracionesInformacion::class.java))
+                true
+            }
+            R.id.exit-> {
+                finish()
+                true
+            }
+            else -> false
+        }
+    }
+
 }

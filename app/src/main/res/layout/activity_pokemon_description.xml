@@ -20,13 +20,15 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/configButton"
+            android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|left"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            app:srcCompat="@drawable/ic_baseline_menu_24" />
+            android:onClick="backMain"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -43,7 +45,9 @@
             android:layout_gravity="center|right"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <LinearLayout

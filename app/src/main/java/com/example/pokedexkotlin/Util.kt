@@ -12,4 +12,7 @@ class Util {
             else ->fmt.format("%03d",numero)
         }
     }
+
+    fun convertToMeter(height:Int):Float = height.toFloat()/10
+    fun convertToKG(weight:Int):Float = weight.toFloat()/10
 }
