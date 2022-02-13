@@ -78,6 +78,7 @@ class MainActivity : AppCompatActivity(){
         Toast.makeText(this,"No se ha podido establecer conexión con la API",Toast.LENGTH_SHORT).show()
     }
     private fun showErrorNOConnection(){
+
         Toast.makeText(this,"Compruebe su conexión a internet.\uD83E\uDD74",Toast.LENGTH_LONG).show()
     }
 

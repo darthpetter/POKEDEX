@@ -64,6 +64,10 @@
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\bulbasaur.png"
     },
     {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable__01.png.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\_01.png"
+    },
+    {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_pokemon_item.xml.flat",
         "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\fondo_pokemon_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable__90.png.flat",
+        "source": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\src\\main\\res\\drawable\\_90.png"
     },
     {
         "merged": "C:\\Users\\PETTER\\AndroidStudioProjects\\PokedexKotlin\\app\\build\\intermediates\\merged_res\\debug\\drawable_pokemon_logo.png.flat",
