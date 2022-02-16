@@ -11,5 +11,5 @@ interface APIService {
     //https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/2.png
 
     @GET
-    fun getPhotoPokemonGitHub(@Url url: String): Call<ResponsePokemonEntrySpecie>
+    fun getPokemonDescription(@Url url: String): Call<ResponsePokemonDescription>
 }

@@ -3,13 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1015" />
         <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/fondo_app.xml" value="0.2703125" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/fondo_description_pokemon.xml" value="0.156" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/fondo_pokemon_item.xml" value="0.1255" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/fondo_pokemon_item2.xml" value="0.12" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/fondo_pokemon_item_data.xml" value="0.1255" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/gradiente_backgrund_pokemon_item.xml" value="0.114" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/pokemon_type.xml" value="0.156" />
         <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/rectangle_tangerine.xml" value="0.2703125" />
         <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/rectangle_tangerine_rounded.xml" value="0.1" />
         <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/drawable/tangerine_rectangle.xml" value="0.2703125" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/font/font_pokemon_names.xml" value="0.1574074074074074" />
         <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/font/fuente_sistema.xml" value="0.284375" />
-        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/layout/activity_main.xml" value="0.536" />
-        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/layout/pokemon_item.xml" value="0.536" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/layout/activity_configuraciones_informacion.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/layout/activity_pokemon_description.xml" value="0.6" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/layout/pokemon_item.xml" value="0.25" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/layout/pokemon_type.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/menu/main_menu.xml" value="0.264" />
+        <entry key="..\:/Users/PETTER/AndroidStudioProjects/PokedexKotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

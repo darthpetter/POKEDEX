@@ -1276,6 +1276,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -1777,6 +1778,11 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yeezus_black
+color yeezus_blue_400
+color yeezus_blue_500
+color yeezus_red
+color yeezus_white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2360,6 +2366,8 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+drawable _01
+drawable _90
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -2456,12 +2464,16 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable fondo_app
+drawable fondo_description_pokemon
+drawable fondo_pokemon_item
+drawable fondo_pokemon_item_data
 drawable ic_baseline_account_circle_24
+drawable ic_baseline_arrow_back_ios_new_24
 drawable ic_baseline_menu_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logo
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2469,6 +2481,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_outline_settings_24
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2511,15 +2524,17 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pokemon_logo
-drawable rectangle_tangerine_rounded
+drawable pokemon_type
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font font_pokemon_names
 font fuente_sistema
 font outfit_medium
 font outfit_regular
 font outfit_semibold
+font pressstart
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2607,6 +2622,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backButton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2645,6 +2661,7 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id configuration
 id confirm_button
 id constraint
 id container
@@ -2659,6 +2676,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id darkMode
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2698,6 +2716,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id exit
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2735,7 +2754,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton
 id imageButton2
 id imageView
 id immediateStop
@@ -2760,6 +2778,9 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout2
+id linearLayout3
+id linearLayout4
 id listMode
 id list_item
 id mainView
@@ -2982,6 +3003,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtAltura
+id txtPeso
+id txtviewALTURA
+id txtviewPESO
+id type1
+id type2
 id unchecked
 id uniform
 id unlabeled
@@ -3089,7 +3116,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_configuraciones_informacion
 layout activity_main
+layout activity_pokemon_description
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3180,7 +3209,9 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+menu main_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -4334,6 +4365,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style fondo_app
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

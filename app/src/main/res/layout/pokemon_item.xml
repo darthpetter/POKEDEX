@@ -3,53 +3,65 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="105dp"
+    android:layout_height="wrap_content"
     android:layout_margin="5dp"
     app:cardBackgroundColor="@android:color/transparent"
     app:cardElevation="0dp">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_centerInParent="true"
-        android:layout_gravity="bottom|center"
-        android:background="@drawable/rectangle_tangerine_rounded"
-        android:gravity="center"
-        android:padding="5dp">
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_pokemon_item"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
 
-        <TextView
-            android:id="@+id/numeroPokemon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_weight="1"
-            android:text="001"
-            android:textColor="@color/azul_numero_pokemon"
-            android:textFontWeight="600"
-            android:textSize="14sp"
-            tools:ignore="TextContrastCheck" />
+        <ImageView
+            android:id="@+id/fotoPokemon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center|top"
+            android:layout_marginBottom="-6dp"
+            android:scaleType="fitCenter"
+            android:translationZ="33dp"
+            app:srcCompat="@drawable/_90" />
 
-        <TextView
-            android:id="@+id/nombrePokemon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_marginStart="20dp"
-            android:layout_weight="1"
-            android:gravity="right"
-            android:text="Bulbasaur"
-            android:textColor="@color/black"
-            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/fondo_pokemon_item_data"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/numeroPokemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="2"
+                android:text="001"
+                android:textColor="@color/yeezus_blue_400"
+                android:textFontWeight="600"
+                android:textSize="8sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/nombrePokemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Bulbasaur"
+                android:textColor="@color/yeezus_white"
+                android:textSize="8sp" />
+
+        </LinearLayout>
 
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/fotoPokemon"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_gravity="bottom|center|top"
-        android:paddingBottom="-10dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/bulbasaur" />
 
 </androidx.cardview.widget.CardView>

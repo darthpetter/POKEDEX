@@ -12,4 +12,11 @@
     <color name="tangerine">#E3A368</color>
     <color name="azul_numero_pokemon">#238B9B</color>
 
+    /*COLORES NUEVA INTERFAZ*/
+    <color name="yeezus_white">#D6DBDE</color>
+    <color name="yeezus_blue_500">#20CBB8</color>
+    <color name="yeezus_blue_400">#81BAC3</color>
+    <color name="yeezus_red">#F2250A</color>
+    <color name="yeezus_black">#24272E</color>
+
 </resources>

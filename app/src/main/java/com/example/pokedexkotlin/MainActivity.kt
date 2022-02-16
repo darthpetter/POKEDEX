@@ -1,20 +1,33 @@
 package com.example.pokedexkotlin
 
+import android.content.Intent
+import android.content.res.Configuration
+import android.graphics.drawable.Drawable
 import android.os.Bundle
+import android.view.ContextMenu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
+import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.pokedexkotlin.databinding.ActivityMainBinding
+import com.example.pokedexkotlin.databinding.ActivityPokemonDescriptionBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.io.IOError
+import java.io.IOException
+import java.security.AccessController.getContext
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(){
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: AdapterPokemon
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         getPokemones()
+
     }
     private fun initRecyclerView(pokemones: ArrayList<String>) {
         adapter = AdapterPokemon(pokemones)
@@ -37,26 +51,64 @@ class MainActivity : AppCompatActivity() {
 
     private fun getPokemones(){
         CoroutineScope(Dispatchers.IO).launch {
-            val call = getRetrofit().create(APIService::class.java).getPokemons("").execute()
-            val pokemones = call.body()
-            runOnUiThread {
-                if(call.isSuccessful){
-                    var nombresPokemones=ArrayList<String>()
-                    for(pokemoncito:ResponsePokemonEntry in pokemones!!.pokemon){
-                        nombresPokemones.add(pokemoncito.pokemon_species.name)
+            try {
+                val call = getRetrofit().create(APIService::class.java).getPokemons("").execute()
+                val pokemones = call.body()
+                runOnUiThread {
+                    if (call.isSuccessful) {
+                        var nombresPokemones = ArrayList<String>()
+                        for (pokemoncito: ResponsePokemonEntry in pokemones!!.pokemon) {
+                            nombresPokemones.add(pokemoncito.pokemon_species.name)
+                        }
+                        initRecyclerView(nombresPokemones)
+                        } else {
+                            showErrorConnection()
+                        }
                     }
-                    initRecyclerView(nombresPokemones)
-                }else{
-                    showError()
+                }catch(e:IOException){
+                    runOnUiThread {
+                        showErrorNOConnection()
+                    }
                 }
+
             }
-        }
     }
-    private fun showError(){
+    private fun showErrorConnection(){
         Toast.makeText(this,"No se ha podido establecer conexión con la API",Toast.LENGTH_SHORT).show()
     }
+    private fun showErrorNOConnection(){
 
+        Toast.makeText(this,"Compruebe su conexión a internet.\uD83E\uDD74",Toast.LENGTH_LONG).show()
+    }
+    /*
+    fun configButton(v: View) {
+        PopupMenu(this, v).apply {
+            //setOnMenuItemClickListener(this)
+            inflate(R.menu.main_menu)
+            show()
+        }
+    }
+    */
 
+    fun configButton(view: View) {
+        val popupMenu = PopupMenu(this, view)
+        menuInflater.inflate(R.menu.main_menu, popupMenu.menu)
+        popupMenu.setOnMenuItemClickListener (::manageItemClick)
+        popupMenu.show()
+    }
 
+    private fun manageItemClick(menuItem: MenuItem): Boolean {
+        return when(menuItem.itemId){
+            R.id.configuration-> {
+                startActivity(Intent(this,ConfiguracionesInformacion::class.java))
+                true
+            }
+            R.id.exit-> {
+                finish()
+                true
+            }
+            else -> false
+        }
+    }
 
 }
